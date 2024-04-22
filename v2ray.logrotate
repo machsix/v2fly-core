@@ -1,0 +1,9 @@
+/etc/v2ray/*.log {
+        weekly
+        rotate 5
+        compress
+        delaycompress
+        dateext
+        create
+        missingok
+}
