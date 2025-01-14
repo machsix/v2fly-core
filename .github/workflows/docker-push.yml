@@ -21,7 +21,7 @@ jobs:
   check-env:
     permissions:
       contents: none
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 5
     outputs:
       check-docker: ${{ steps.check-docker.outputs.defined }}
